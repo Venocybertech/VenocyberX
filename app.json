@@ -1,0 +1,22 @@
+{
+    "name": "VENOCYBER x ʙᴏᴛs session ɢᴇɴᴇʀᴀᴛᴏʀ",
+    "description": "VENOCYBER-X WA bot, Created by Venocyber King jux to simplify your digital lives",
+    "logo": "https://telegra.ph/file/9573213e9c5d2fb54069f.jpg",
+    "repository": "https://github.com/venocybertech/Venocyber-X",
+    "keywords": ["VenocyberX"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
